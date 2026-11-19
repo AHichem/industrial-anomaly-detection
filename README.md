@@ -35,7 +35,8 @@ The data (about 2.5 GB) is not stored in this repository. Notebook 01 downloads 
 | 02 | Golden batch (global and per control strategy); golden batch vs a first ML detector on false alarms; can the 3 control strategies be found without labels? | Mean ± 3σ envelope, **Isolation Forest**, **K-means** | Done |
 | 03 | Supervised fault detection: features computed on time windows, model trained on labelled faults | Feature engineering, **Random Forest**, precision / recall, feature importance | In progress |
 | 04 | Unsupervised detection trained on normal batches only, compared with all previous models | **PCA** (T² and SPE), **autoencoder** | Planned |
-| 05 (optional) | Soft sensor: predict penicillin from the online sensors | Regression | Optional |
+| 05 | Resilient monitoring: new operating conditions, adaptation with few new batches, broken sensors, few labels | **PCA** monitor retrained over time, sensor fault injection, contribution plot | In progress |
+| 06 (optional) | Soft sensor: predict penicillin from the online sensors | Regression | Optional |
 
 ## Key findings so far
 
